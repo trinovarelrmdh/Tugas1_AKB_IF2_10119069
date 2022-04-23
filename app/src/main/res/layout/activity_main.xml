@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    //Nama : Tri Novarel Rahmadhani-->
+<!--    //Nim : 10119069-->
+<!--    //kelas : IF-2-->
+<!--    //23/04/2022-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tugas1akbif_210119069.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/profile" />
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:layout_marginLeft="240dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="500dp"
+        android:orientation="horizontal"/>
+
+    <Button
+        android:id="@+id/button_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal"
+        android:text="PROFILE" />
+
+</RelativeLayout>
